@@ -1,0 +1,93 @@
+body{
+    
+}
+
+.container-fluid{
+    border: 1px solid red;
+    width: 100%;
+}
+
+.container{
+    border: 1px solid green;
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+.logo-img{
+    display: block;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+}
+
+.logo-img img{
+    width: 100%;
+}
+
+.main-menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul.main-menu li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #1d1d1dd0;
+    font-size: 22px;
+}
+
+.main-menu li a:hover{
+  color: #000;  
+}
+
+
+/*newsletter section*/
+
+.newsletter{
+    text-align: center;
+    background-image: url("https://gamerwall.pro/uploads/posts/2022-03/thumbs/1647874378_2-gamerwall-pro-p-oblaka-fon-krasivie-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*button styles*/
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e6e693;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a1a155;
+    text-decoration: none;
+  }
+
+
+
