@@ -2,13 +2,11 @@ body{
     
 }
 
-.container-fluid{
-    border: 1px solid red;
+.container-fluid{   
     width: 100%;
 }
 
-.container{
-    border: 1px solid green;
+.container{    
     max-width: 1140px;
     margin: 0 auto;   
 }
@@ -23,7 +21,7 @@ body{
 
 .logo-img{
     display: block;
-    border: 1px solid red;
+    
     width: 150px;
     height: 150px;
     overflow: auto;
@@ -57,17 +55,79 @@ ul.main-menu li a{
     background-image: url("https://gamerwall.pro/uploads/posts/2022-03/thumbs/1647874378_2-gamerwall-pro-p-oblaka-fon-krasivie-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 60px 0;
     
+}
+
+/* workers cards styles */
+
+.cards{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cards__item {    
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 20px;
+    background-color: #b8dae3;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.05);
+    
+}
+
+.cards__item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    margin-top: -60px;
+}
+
+
+.card__item h2{
+    margin-top: 3px;
+    margin-bottom:2px;
+}
+
+
+.card__item h3{
+    margin-top:5px;
+    margin-bottom:1px;
+}
+
+.cards__item p{
+    margin: 10px 0;
+    text-align: center;
 }
 
 
 
+.cards__social-icons {
+    margin: 10px 0;
+}
+.cards__social-icons a {
+    color: white;
+    font-size: 29px;
+    margin-left: 10px;
+    transition: all 0.5s;
+   
+}
 
-
-
-
-
-
+.cards__social-icons a:hover{  
+    color: #1c4c63;
+    
+ } 
 
 
 /*button styles*/
